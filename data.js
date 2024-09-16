@@ -73,9 +73,9 @@ console.log(animal);
  noises[noises.length] = "growl";
 
  // logging length of noises array to console
- console.log(noises.length);
+ console.log(noises.length - 1);
 
- // logging the last element of the noises array
+ // logging the last element of the noises array without hard coding the index
  console.log(noises[noises.length - 1]);
 
  // logging noises array to console
@@ -172,7 +172,7 @@ console.log(animal);
  // pushing cow to animals array
  animals.push(cow);
 
- // creating an animal objects  with a species, name, and two sounds
+ // creating an animal objects with a species, name, and two sounds
  var dog = {
   species: 'dog',
   name: 'Stilton',
