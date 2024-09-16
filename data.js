@@ -60,21 +60,26 @@ console.log(animal);
  // initializing noises variable and assigning it to an empty array
  var noises = [];
 
- 
- 
-noises[0] = "meow";
+ // adding an element to the noises array using bracket notation
+ noises[0] = "meow";
 
-noises.push("purr");
+ // using push method to add element to the end of noises array
+ noises.push("purr");
 
-noises.unshift("hiss"); 
+ // using unshift method to add element to beginning of array
+ noises.unshift("hiss"); 
 
-noises[noises.length] = "growl";
+ // adding an element to the end of noises 
+ noises[noises.length] = "growl";
 
-console.log(noises.length);
+ // logging length of noises array to console
+ console.log(noises.length);
 
-console.log(noises[noises.length - 1]);
+ // logging the last element of the noises array
+ console.log(noises[noises.length - 1]);
 
-console.log(noises);
+ // logging noises array to console
+ console.log(noises);
 
 
 //////////////////////////////////////////////////////////////////////
@@ -89,10 +94,13 @@ console.log(noises);
  4. [ ] Does it look right?
  */
 
+ // assigning noises property on animal to noises array
  animal['noises'] = noises;
 
+ // adding another noises to noises property on animal using push method
  animal.noises.push("purrrrr");
 
+ // logging animal
  console.log(animal);
 
 
@@ -132,36 +140,46 @@ console.log(noises);
  8. [ ] `console.log` `animals`, and, `console.log` the length of `animals`. Is everything looking right?
  */
 
+ // initializing animals variable and assigning it to an empty array
  var animals = [];
 
+ // pushing animal to animals
  animals.push(animal);
 
+ // logging animals
  console.log(animals);
 
+ // creating variable called duck and assigning given data
  var duck = {
   species: 'duck',
   name: 'Jerome',
   noises: ['quack', 'honk', 'sneeze', 'woosh']
  };
 
+ // pushing duck to animals array
  animals.push(duck);
 
+ // logging animals
  console.log(animals);
 
+ // creating an animal objects  with a species, name, and two sounds
  var cow = {
   species: 'cow',
   name: 'Bessie',
   noises: ['moo', 'moooo']
  };
 
+ // pushing cow to animals array
  animals.push(cow);
 
+ // creating an animal objects  with a species, name, and two sounds
  var dog = {
   species: 'dog',
   name: 'Stilton',
   noises: ['bark', 'woof']
  };
 
+ // pushing dog to animals array
  animals.push(dog);
 
 
@@ -202,7 +220,7 @@ console.log(noises);
   // adding friend's 
   animals[0]['friends'] = friends;
 
-  // logging
+  // logging animals array to console
   console.log(animals);
 
 
