@@ -79,7 +79,7 @@ As we code, save and refresh the browser tab running Matchy. Your work will begi
  2. [ ] What are the different ways of accessing elements on  arrays?
 
 ## Step 5 - Take a Break!
-It's super important to give your brain and yourself a rest when you can! Grab a drink and have a think! For like 10 minutes, then, **BACK TO WORK!** :)
+It's super important to give your brain and yourself a rest when you can! Grab a drink and have a think! For like 10 minutes, then, **BACK TO WORK!** :
 
 ## Step 6 - A Collection of Animals
  1. [ ] Create a variable named `animals` and assign it to an empty array.
