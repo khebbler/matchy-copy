@@ -83,14 +83,19 @@ function search(animals, string) {
 */
 
 function add(animals, animal) {
-    // looping through animals array 
-    for (var i = 0; i < animals.length; i++) {
-        // 
-        if (animals[i].name.length > 0) {
-
+    // checking if animal obj has a name and species property with length > 0 
+    if (animal.name && animal.name.length > 0 && animal.species && animal.species.length > 0) {
+      // looping through animals array 
+      for (var i = 0; i < animals.length; i++) {
+        // if animal name is found
+        if (animals[i].name === animal.name) {
+          // return
+          return;
         }
 
-
+      }
+      // adding new animal to animals array if all other conditions pass
+      animals.push(animal);
     }
 }
 /**
